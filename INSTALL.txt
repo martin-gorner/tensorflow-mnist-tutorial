@@ -26,8 +26,6 @@ Ubuntu/Linux:
         sudo pip3 install --upgrade matplotlib
         sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp34-cp34m-linux_x86_64.whl
 
-    The cycler install is to work around a bug in the current matplotlib release. It should be fixed in the next one.
-    The renaming of the tensorflow install file is to overcome a bug in tensorflow. This should get fixed too.
 
 TEST YOUR INSTALLATION:
     git clone https://github.com/martin-gorner/tensorflow-mnist-tutorial.git
