@@ -20,7 +20,7 @@ import math
 tf.set_random_seed(0)
 
 # Download images and labels
-mnist = mnist_data.read_data_sets("data")
+mnist = mnist_data.read_data_sets("data", one_hot=True, reshape=False)
 
 # neural network structure for this sample:
 #

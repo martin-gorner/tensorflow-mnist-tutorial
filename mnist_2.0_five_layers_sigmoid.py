@@ -33,7 +33,7 @@ tf.set_random_seed(0)
 #       ·                                                        Y5 [batch, 10]
 
 # Download images and labels
-mnist = mnist_data.read_data_sets("data")
+mnist = mnist_data.read_data_sets("data", one_hot=True, reshape=False)
 
 # input X: 28x28 grayscale images, the first dimension (None) will index the images in the mini-batch
 X = tf.placeholder(tf.float32, [None, 28, 28, 1])
