@@ -33,6 +33,9 @@ Windows/Virtualbox:
 	Shut down the virtual machine, max out its Video RAM and CPU settings, allocate 4GB of RAM and restart.
 	Now go to Ubuntu/Linux section.
 
+NOTE: If using the above methods, installation does not succed, be sure to checkout https://www.tensorflow.org/get_started/os_setup
+
+
 TEST YOUR INSTALLATION:
     git clone https://github.com/martin-gorner/tensorflow-mnist-tutorial.git
     cd tensorflow-mnist-tutorial
