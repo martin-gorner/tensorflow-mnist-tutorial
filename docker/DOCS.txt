@@ -1,0 +1,18 @@
+References, inspirations:
+
+Tensorflow and deep learning - without a PhD by Martin Görner
+-> https://www.youtube.com/watch?v=vq2nnJ4g6N0
+
+TensorFlow and deep learning, without a PhD
+-> https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0
+
+Installing TensorFlow on Ubuntu 
+-> https://www.tensorflow.org/install/install_linux#InstallingDocker
+
+tensorflow/tensorflow
+-> https://hub.docker.com/r/tensorflow/tensorflow/
+tensorflow/tensorflow/tools/docker/Dockerfile
+-> https://github.com/tensorflow/tensorflow/blob/85827b2356d33e54d2e1413fc2005b08cde72f8b/tensorflow/tools/docker/Dockerfile
+
+NVIDIA/nvidia-docker
+-> https://github.com/NVIDIA/nvidia-docker
