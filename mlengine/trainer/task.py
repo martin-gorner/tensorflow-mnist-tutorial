@@ -106,7 +106,7 @@ def conv_model(X, Y_, mode):
 training_config = tf.contrib.learn.RunConfig(save_checkpoints_secs=None, save_checkpoints_steps=1000, gpu_memory_fraction=0.9)
 
 # This will export a model at every checkpoint, including the transformations needed for online predictions.
-export_strategy=saved_model_export_utils.make_export_strategy(export_input_fn=serving_input_fn)
+export_strategy=saved_model_export_utils.make_export_strategy(serving_input_fn=serving_input_fn)
 
 
 # The Experiment is an Estimator with data loading functions and other parameters
