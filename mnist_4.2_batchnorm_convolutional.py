@@ -18,7 +18,7 @@ import tensorflowvisu
 import math
 from tensorflow.examples.tutorials.mnist import input_data as mnist_data
 print("Tensorflow version " + tf.__version__)
-tf.set_random_seed(0.0)
+tf.set_random_seed(0)
 
 # Download images and labels into mnist.test (10K images+labels) and mnist.train (60K images+labels)
 mnist = mnist_data.read_data_sets("data", one_hot=True, reshape=False, validation_size=0)
